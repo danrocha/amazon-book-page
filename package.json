@@ -1,0 +1,31 @@
+{
+  "name": "social-cards",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "eslintConfig": {
+    "extends": [
+      "serverless-stack"
+    ]
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/aws-lambda": "^8.10.70",
+    "@types/node": "<15.0.0"
+  },
+  "dependencies": {
+    "@serverless-stack/cli": "0.66.3",
+    "@serverless-stack/resources": "0.66.3",
+    "@types/puppeteer-core": "^5.4.0",
+    "aws-cdk-lib": "2.7.0",
+    "chrome-aws-lambda": "^9.1.0",
+    "puppeteer": "^9.1.1",
+    "puppeteer-core": "^9.1.0"
+  }
+}
